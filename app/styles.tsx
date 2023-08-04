@@ -16,7 +16,7 @@ const styles = {
     marginX: "sm:mx-16 mx-6",
     marginY: "sm:my-16 my-6",
 
-    ctaBtn: "text-center text-white text-xl font-bold bg-gradient-to-r from-green-500 via-green-400 to-green-200 py-4 px-20 rounded-full cursor-pointer",
+    ctaBtn: "w-[277px] text-center text-white text-xl font-bold bg-gradient-to-r from-green-500 via-green-400 to-green-200 py-4  rounded-full cursor-pointer",
 };
 
 export const layout = {
