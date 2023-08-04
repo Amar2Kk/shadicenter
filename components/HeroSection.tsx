@@ -9,26 +9,26 @@ const HeroSection = () => {
             <div>
                 <div className="flex gap-8 mb-8">
                     <img
-                        className="w-[277px] h-[318px] rounded-[10px]"
+                        className="w-[147px] md:w-[277px] h-[188px] md:h-[318px] rounded-[10px]"
                         src="https://via.placeholder.com/277x318"
                     />
                     <img
-                        className="w-[308px] h-48 rounded-[10px]"
+                        className="w-[188px] md:w-[308px] h-32 md:h-48 rounded-[10px]"
                         src="https://via.placeholder.com/308x192"
                     />
                 </div>
                 <div className="flex gap-8">
                     <img
-                        className="w-[225px] h-[295px] rounded-[10px]"
+                        className="w-[105px] md:w-[225px] h-[195px] md:h-[265px] rounded-[10px]"
                         src="https://via.placeholder.com/225x295"
                     />
                     <img
-                        className="-mt-32 w-[360px] h-[421px]  rounded-[10px]"
+                        className="-mt-16 md:-mt-32 w-[230px] md:w-[360px] h-[291px] md:h-[421px]  rounded-[10px]"
                         src="https://via.placeholder.com/360x421"
                     />
                 </div>
             </div>
-            <div className="h-full flex flex-col gap-4 justify-center items-start">
+            <div className="h-full flex flex-col gap-4 justify-center items-start mx-3 md:mx-0">
                 <div className="flex w-full justify-end mb-12">
                     <RightLeaf />
                 </div>
