@@ -1,15 +1,13 @@
 import styles from "./styles";
-
-import {
-    Hero,
-    AboutDr,
-    AboutUs,
-    Services,
-    Products,
-    Contact,
-    Footer,
-} from "../components";
+import RightLeaf from "@/assets/RightLeaf";
+import RightBigLeaf from "@/assets/RightBigLeaf";
+import HeroSection from "@/components/HeroSection";
 
 export default function Home() {
-    return <div></div>;
+    return (
+        <>
+            {/* Hero Section */}
+            <HeroSection />
+        </>
+    );
 }
